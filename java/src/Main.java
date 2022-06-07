@@ -10,11 +10,17 @@ public class Main {
 //        InsertionSort insertionSort = new InsertionSort();
 //        System.out.println(insertionSort.sort(sampleDataList));
 
-        Factorial factorial = new Factorial();
-        System.out.println(factorial.fac(5));
+//        Factorial factorial = new Factorial();
+//        System.out.println(factorial.fac(5));
+//
+//        ArrayList<Integer> sampleDataList2 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+//        System.out.println(factorial.totalSum(sampleDataList2));
 
-        ArrayList<Integer> sampleDataList2 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
-        System.out.println(factorial.totalSum(sampleDataList2));
+        Fibonacci fibonacci = new Fibonacci();
+        System.out.println(fibonacci.fibonacci(9));
+
+        Dynamic dynamic = new Dynamic();
+        System.out.println(dynamic.dynamic(10));
 
     }
 }
