@@ -16,11 +16,17 @@ public class Main {
 //        ArrayList<Integer> sampleDataList2 = new ArrayList<>(Arrays.asList(1,2,3,4,5));
 //        System.out.println(factorial.totalSum(sampleDataList2));
 
-        Fibonacci fibonacci = new Fibonacci();
-        System.out.println(fibonacci.fibonacci(9));
+//        Fibonacci fibonacci = new Fibonacci();
+//        System.out.println(fibonacci.fibonacci(9));
+//
+//        Dynamic dynamic = new Dynamic();
+//        System.out.println(dynamic.dynamic(10));
 
-        Dynamic dynamic = new Dynamic();
-        System.out.println(dynamic.dynamic(10));
+        NodeMgmt myTree = new NodeMgmt();
+        myTree.isertNode(2);
+        myTree.isertNode(3);
+        myTree.isertNode(6);
+        myTree.isertNode(5);
 
     }
 }
